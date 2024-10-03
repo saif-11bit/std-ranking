@@ -1,0 +1,5 @@
+candidate_id,candidate_name,candidate_skills,experience_years,experience_relevance,cultural_fit,video_ai_score
+1,Alice Smith,"{'Skill A': 5, 'Skill B': 4, 'Skill C': 5, 'Skill D': 3}",5,high,5,4
+2,Bob Johnson,"{'Skill A': 3, 'Skill B': 2, 'Skill C': 4}",3,medium,4,3
+3,Charlie Lee,"{'Skill B': 5, 'Skill C': 5, 'Skill E': 4}",2,low,3,5
+4,Diana Prince,"{'Skill A': 4, 'Skill B': 3, 'Skill C': 5}",4,high,5,4
