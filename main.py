@@ -11,10 +11,12 @@ try:
     nltk.load('punkt')
 except:
     nltk.download('punkt')
+    nltk.load('punkt')
 try:
     nltk.load('stopwords')
 except:
     nltk.download('stopwords')
+    nltk.load('stopwords')
 
 # Job relevance keywords
 job_keywords = [
