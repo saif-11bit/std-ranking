@@ -3,9 +3,20 @@ import pandas as pd
 import ast
 import nltk
 
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('punkt_tab')
+try:
+    nltk.load('punkt')
+except:
+    nltk.download('punkt')
+try:
+    nltk.load('stopwords')
+except:
+    nltk.download('stopwords')
+try:
+    nltk.load('punkt_tab')
+except:
+    nltk.download('punkt_tab')
+
+
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
