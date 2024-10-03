@@ -2,21 +2,21 @@ import streamlit as st
 import pandas as pd
 import ast
 import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import string
 
-# Download NLTK data files (only need to run once)
-try:
-    nltk.load('punkt')
-except:
-    nltk.download('punkt')
-    nltk.load('punkt')
-try:
-    nltk.load('stopwords')
-except:
-    nltk.download('stopwords')
-    nltk.load('stopwords')
+
 
 # Job relevance keywords
 job_keywords = [
