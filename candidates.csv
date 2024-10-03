@@ -1,5 +1,13 @@
 candidate_id,candidate_name,candidate_skills,experience_years,job_position,experience_description,cultural_fit,video_ai_score
-1,Alice Smith,"{'Python': 5, 'SQL': 4, 'Machine Learning': 5, 'Data Visualization': 3}",5,Data Science Intern,"Worked on building machine learning models for predictive analytics.",5,4
-2,Bob Johnson,"{'Python': 3, 'SQL': 2, 'Statistics': 4}",3,Data Analyst Intern,"Analyzed datasets to extract insights and presented findings.",4,3
+1,Alice Smith,"{'Python': 5, 'SQL': 4, 'Machine Learning': 5, 'Data Visualization': 3}",5,Data Scientist,"Worked on building machine learning models for predictive analytics.",5,4
+2,Bob Johnson,"{'Python': 3, 'SQL': 2, 'Statistics': 4}",3,Data Analyst,"Analyzed datasets to extract insights and presented findings.",4,3
 3,Charlie Lee,"{'SQL': 5, 'Machine Learning': 5, 'Deep Learning': 4}",2,Research Assistant,"Conducted research on deep learning algorithms.",3,5
-4,Diana Prince,"{'Python': 4, 'SQL': 3, 'Machine Learning': 5}",4,Software Engineer Intern,"Developed backend systems and integrated machine learning services.",5,4
+4,Diana Prince,"{'Python': 4, 'SQL': 3, 'Machine Learning': 5}",4,Software Engineer,"Developed backend systems and integrated machine learning services.",5,4
+5,Eva Green,"{'Python': 2, 'Data Visualization': 5, 'Statistics': 5}",1,Junior Data Analyst,"Created dashboards and visualizations for marketing data.",4,3
+6,Frank Miller,"{'Python': 5, 'SQL': 5, 'Big Data': 4}",6,Data Engineer,"Built data pipelines and managed big data infrastructure.",3,4
+7,Grace Kim,"{'Python': 4, 'Machine Learning': 3, 'NLP': 5}",3,NLP Engineer,"Developed NLP models for text analysis.",5,5
+8,Henry Lee,"{'Python': 2, 'SQL': 3, 'Data Visualization': 4}",2,Business Analyst,"Provided data-driven insights to improve business operations.",4,2
+9,Isabella Lopez,"{'R': 5, 'Statistics': 5, 'Machine Learning': 4}",4,Statistician,"Performed statistical analysis for clinical trials.",5,4
+10,Jack Wilson,"{'Python': 5, 'Deep Learning': 5, 'Computer Vision': 4}",5,AI Researcher,"Worked on computer vision projects using deep learning techniques.",4,5
+11,Karen Davis,"{'SQL': 4, 'Data Visualization': 4, 'Statistics': 3}",3,Data Analyst,"Generated reports and visualizations for sales data.",4,3
+12,Liam Brown,"{'Python': 3, 'Machine Learning': 2, 'Data Visualization': 3}",1,Intern,"Assisted in data cleaning and basic visualization tasks.",5,2
