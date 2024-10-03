@@ -2,19 +2,9 @@ import streamlit as st
 import pandas as pd
 import ast
 import nltk
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
 
-try:
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('stopwords')
-
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-import string
+nltk.download('punkt')
+nltk.download('stopwords')
 
 
 
