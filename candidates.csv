@@ -1,5 +1,5 @@
-candidate_id,candidate_name,candidate_skills,experience_years,experience_relevance,cultural_fit,video_ai_score
-1,Alice Smith,"{'Python': 5, 'SQL': 4, 'Machine Learning': 5, 'Data Visualization': 3}",5,high,5,4
-2,Bob Johnson,"{'Python': 3, 'SQL': 2, 'Statistics': 4}",3,medium,4,3
-3,Charlie Lee,"{'SQL': 5, 'Machine Learning': 5, 'Deep Learning': 4}",2,low,3,5
-4,Diana Prince,"{'Python': 4, 'SQL': 3, 'Machine Learning': 5}",4,high,5,4
+candidate_id,candidate_name,candidate_skills,experience_years,job_position,experience_description,cultural_fit,video_ai_score
+1,Alice Smith,"{'Python': 5, 'SQL': 4, 'Machine Learning': 5, 'Data Visualization': 3}",5,Data Science Intern,"Worked on building machine learning models for predictive analytics.",5,4
+2,Bob Johnson,"{'Python': 3, 'SQL': 2, 'Statistics': 4}",3,Data Analyst Intern,"Analyzed datasets to extract insights and presented findings.",4,3
+3,Charlie Lee,"{'SQL': 5, 'Machine Learning': 5, 'Deep Learning': 4}",2,Research Assistant,"Conducted research on deep learning algorithms.",3,5
+4,Diana Prince,"{'Python': 4, 'SQL': 3, 'Machine Learning': 5}",4,Software Engineer Intern,"Developed backend systems and integrated machine learning services.",5,4
