@@ -56,7 +56,7 @@ def calculate_video_ai_score(video_ai_score, weight):
 
 # Main function
 def main():
-    st.title('Candidate Ranking Model')
+    st.title('Data Science Candidate Ranking Model')
     
     # Load candidate data
     df = pd.read_csv('candidates.csv')
@@ -67,7 +67,13 @@ def main():
     # Define required skills with required proficiency levels
     st.sidebar.header('Required Skills and Proficiency Levels')
     required_skills = {}
-    default_required_skills = {'Skill A': 4, 'Skill B': 3, 'Skill C': 5}
+    default_required_skills = {
+        'Python': 5,
+        'SQL': 4,
+        'Machine Learning': 5,
+        'Data Visualization': 4,
+        'Statistics': 4
+    }
     
     for skill in default_required_skills.keys():
         proficiency = st.sidebar.slider(f'Required proficiency for {skill}', 1, 5, default_required_skills[skill])
@@ -102,12 +108,12 @@ def main():
         
         total_scores.append({
             'candidate_name': row['candidate_name'],
-            'proficiency_score': proficiency_score,
-            'skill_match_score': skill_match_score,
-            'experience_score': experience_score,
-            'cultural_fit_score': cultural_fit_score,
-            'video_ai_score': video_ai_score,
-            'total_score': total_score
+            'proficiency_score': round(proficiency_score, 2),
+            'skill_match_score': round(skill_match_score, 2),
+            'experience_score': round(experience_score, 2),
+            'cultural_fit_score': round(cultural_fit_score, 2),
+            'video_ai_score': round(video_ai_score, 2),
+            'total_score': round(total_score, 2)
         })
     
     # Create a DataFrame of the results
